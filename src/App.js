@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import update from 'immutability-helper';
 import classnames from 'classnames';
 
@@ -10,6 +10,8 @@ const initialQuestions = questionData.map(c => ({
 	...c,
 	questions: c.questions.map(q => ({ ...q, answered: false }))
 }));
+
+let audioElement;
 
 function App() {
 	const [questions, setQuestions] = useState(initialQuestions);
@@ -36,6 +38,12 @@ function App() {
 			})
 		);
 	}
+
+	useEffect(() => {
+		audioElement = new Audio(
+			`${process.env.PUBLIC_URL}/Jeopardy-theme-song.mp3`
+		);
+	}, []);
 
 	return (
 		<>
@@ -91,20 +99,35 @@ function QuestionModal({ currentQuestion, setCurrentQuestion, setAnswered }) {
 				for="modal-1"
 				onClick={() => {
 					setCurrentQuestion(null);
+					audioElement.load();
 				}}
 			></div>
 			<div className="modal-body" for="modal-1">
 				{flipped ? answer : question}
 				{flipped || (
-					<div className="margin-top">
-						<button
+					<div className="modal-controls">
+						<div>
+							<button
+								onClick={() => {
+									setAnswered(currentQuestion);
+									setFlipped(!flipped);
+								}}
+							>
+								Flip
+							</button>
+						</div>
+						<div
+							className="play-button"
 							onClick={() => {
-								setAnswered(currentQuestion);
-								setFlipped(!flipped);
+								if (audioElement.paused) {
+									audioElement.play();
+								} else {
+									audioElement.pause();
+								}
 							}}
 						>
-							Flip
-						</button>
+							<button>>||</button>
+						</div>
 					</div>
 				)}
 			</div>

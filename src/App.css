@@ -35,3 +35,12 @@ body {
 .modal-body {
 	font-size: 3rem;
 }
+
+.modal-controls {
+	display: flex;
+	align-items: space-between;
+}
+
+.modal-controls :first-child {
+	flex: 1;
+}
