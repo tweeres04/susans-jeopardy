@@ -31,3 +31,7 @@ body {
 .question.answered {
 	cursor: auto;
 }
+
+.modal-body {
+	font-size: 3rem;
+}
