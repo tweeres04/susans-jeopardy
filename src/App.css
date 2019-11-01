@@ -1,22 +1,33 @@
-.App {
-  text-align: center;
+body {
+	background-color: #eee;
 }
 
-.App-logo {
-  height: 40vmin;
+.categories {
+	display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.category {
+	flex: 1;
+	text-align: center;
 }
 
-.App-link {
-  color: #09d3ac;
+.category-name {
+	font-weight: bold;
+	font-size: 2rem;
+	height: 7.5rem;
+}
+
+.category-name,
+.question {
+	background: white;
+}
+
+.question {
+	text-align: center;
+	cursor: pointer;
+	min-height: 3.33rem;
+}
+
+.question.answered {
+	cursor: auto;
 }
