@@ -13,19 +13,19 @@ body {
 
 .category-name {
 	font-weight: bold;
-	font-size: 2rem;
 	height: 7.5rem;
 }
 
 .category-name,
 .question {
 	background: white;
+	font-size: 3rem;
 }
 
 .question {
 	text-align: center;
 	cursor: pointer;
-	min-height: 3.33rem;
+	padding: 2rem 1rem;
 }
 
 .question.answered {
@@ -33,7 +33,7 @@ body {
 }
 
 .modal-body {
-	font-size: 2rem;
+	font-size: 4rem;
 }
 
 .modal-controls {
