@@ -36,7 +36,7 @@ module.exports = [
 		]
 	},
 	{
-		name: "Women's Socker - World Stage",
+		name: "Women's Socker",
 		questions: [
 			{
 				question:
