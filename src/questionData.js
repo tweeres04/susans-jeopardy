@@ -20,12 +20,18 @@ module.exports = [
 			{
 				question:
 					'This number of Susans have previously been as youth players by Katarina Gutierrez and Melissa Orton',
-				answer: 'Kat and Mo to confirm'
+				answer:
+					'What is 2 for melissa (claire and Allie P) 3 for Kat (Tash, Alicia, Allie P)?'
 			},
 			{
 				question:
 					'This player is at the top of the leaderboard for the Golden Boot 2019-2020 season',
-				answer: 'Who is Cat or Alynn'
+				answer: 'Who is Cat or Alynn?'
+			},
+			{
+				question:
+					'This Susan would rather listen to Taylor Swift than Country Music',
+				answer: 'Who is Heather Churchill?'
 			}
 		]
 	},
@@ -89,6 +95,12 @@ module.exports = [
 				question:
 					'This song was released in 2012, but is not on any of her albums. The music collaboration won Golden Globe- Best Original Song, Grammy Award for Best Country Duo/ Group, and Country Music Association Award for Musical Event of the Year',
 				answer: 'What is Safe and Sound?'
+			},
+			{
+				question:
+					'These individuals discovered each other in the pit at Taylor’s Red Concert in Vancouver BC back in 2014',
+				answer:
+					'Who are Katarina Rosana Gutierrez, Natasha Gutierrez, Melissa Orton?'
 			}
 		]
 	},
@@ -107,6 +119,55 @@ module.exports = [
 				question:
 					'This specific type of beef (wagyu) is known for its pretty price tag and strict rearing methods. Some of which include: giving names not numbers to all the cows, special brushes (not massage- that is a myth) and proper gear for cold weather',
 				answer: 'What is Kobe beef?'
+			},
+			{
+				question:
+					'Cow are considered to be sacred under these religions (naming 2 will suffice)',
+				answer: 'What are Hinduism, Jainism, Zoroastrianism, Buddhism?'
+			},
+			{
+				question:
+					'This is the number of socker balls that can be produced by a single hide',
+				answer: 'What is 18?'
+			},
+			{
+				question:
+					'Guar, is the largest species of wild cow in the world and can be found in this country',
+				answer: 'What is India?'
+			}
+		]
+	},
+	{
+		name: 'Susans and Fans',
+		questions: [
+			{
+				question:
+					'This group of peeps are  real heroes of  SFFC *PREMIER* SUSANS',
+				answer: 'Who are SFFC DIV UNITED?'
+			},
+			{
+				question:
+					'Given the opportunity to coach again or give unsolicited advice, this individual is DYING for a seat in the SFFC Susans Technical area',
+				answer: 'Who is Rolando Gutierrez?'
+			},
+			{
+				question:
+					'This individual is considered to be one of the most helpful and cheerful volunteers of the Susans',
+				answer: 'Who is Derek Sweeney?'
+			},
+			{
+				question: 'This woman is the unofficial Mom-ager of the team',
+				answer: 'Who is Shelley Lowery?'
+			},
+			{
+				question:
+					'This self-serving, arrogant individual was surprisingly pleasant to deal with for the first part of the 2019/2020 season',
+				answer: 'Who is Ian Bush?'
+			},
+			{
+				question:
+					'Known for the use of mega phones and air horns, this individual is dating one of our center backs',
+				answer: 'Who is Nick Broughton?'
 			}
 		]
 	}
