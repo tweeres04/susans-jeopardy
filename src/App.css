@@ -21,6 +21,7 @@ body {
 .question {
 	background: white;
 	font-size: 3rem;
+	min-height: 153px;
 }
 
 .question {
