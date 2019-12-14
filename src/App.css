@@ -13,7 +13,8 @@ body {
 
 .category-name {
 	font-weight: bold;
-	height: 7.5rem;
+	height: 10rem;
+	border-width: 7.5px;
 }
 
 .category-name,
