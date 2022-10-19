@@ -4,7 +4,7 @@ import classnames from 'classnames';
 
 import './App.css';
 
-import questionData from './questionData';
+import questionData from './taylorSwiftData';
 
 const initialQuestions = questionData.map(c => ({
 	...c,
